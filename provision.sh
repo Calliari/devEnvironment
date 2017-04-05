@@ -42,8 +42,9 @@ sudo rm -r /etc/nginx/sites-available/default
 
 cd ~/
 
-cp ~/devEnvironment/nginx.default.sh ~/devEnvironment/
-sudo mv ~/devEnvironment/nginx.default.sh /etc/nginx/sites-available default
+mv ~/devEnvironment/nginx.default.sh ~/devEnvironment default
+
+sudo mv ~/devEnvironment/default /etc/nginx/sites-available/
 
 
 
