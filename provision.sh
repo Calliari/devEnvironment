@@ -47,7 +47,9 @@ cd ~/
  sudo mv /etc/nginx/sites-available/nginx.default.sh /etc/nginx/sites-available/default
 
 
-sudo rm -r ~/default 
+# sudo rm -r ~/default 
+
+
 
 # restart the server
 sudo service nginx restart
